@@ -39,7 +39,7 @@ spec:
                 addonChartVersion: 3.15.0
   template:
     metadata:
-      name: addon-{{name}}-{{values.addonChart}}
+      name: addon-gate-keeper
     spec:
       project: default
       sources:
