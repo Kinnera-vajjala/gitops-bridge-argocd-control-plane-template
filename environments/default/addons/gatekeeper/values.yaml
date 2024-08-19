@@ -1,9 +1,9 @@
 # Helm chart values
-validatingWebhookExemptNamespacesLabels:    
-   - matchExpressions:
-     - key: "openpolicyagent.org/webhook"
-       operator: In
-       values:
-       - Ignore
+validatingWebhookExemptNamespacesLabels:
+  - matchExpressions:
+      - key: openpolicyagent.org/webhook
+        operator: In
+        values:
+          - Ignore
 
 
