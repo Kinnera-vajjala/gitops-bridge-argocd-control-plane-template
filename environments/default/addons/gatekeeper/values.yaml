@@ -1,5 +1,4 @@
 # Helm chart values
-validatingWebhookExemptNamespacesLabels: {
-   "openpolicyagent.org/webhook":
-        -Ignore
-}
+validatingWebhookExemptNamespacesLabels: [
+   "openpolicyagent.org/webhook":Ignore
+]
